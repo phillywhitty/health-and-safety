@@ -35,8 +35,35 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
+#menu, #logo {
+    line-height: 75px;
+
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px
 }
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a
+}
+
+/* safety image */
+
+#safety-image {
+    height: 600px;
+    width: 100%;
+    background: url(../css/images/health\ and\ safety\ main\ image.jpg);
+}
+
