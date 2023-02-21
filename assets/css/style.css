@@ -23,8 +23,7 @@ h2 {
 }
 
 #logo {
-  float: left;
-  height: 150px;
+  height: 100px;
   width: auto;
   mix-blend-mode: color-burn;
 }
@@ -76,25 +75,17 @@ h2 {
     font-family: open sans, nunito, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-   
-    width: 300px;
-    height: 200px;
-    
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(128, 128, 128, .6);
-    
-    bottom: 30px;
-    right: 150px;
-
+    margin-bottom: 400px;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, .8);
     position: absolute;
 }
 
 #safety-image {
   height: 600px;
-  width: 100%;
   background: url(../css/images/health\ and\ safety\ main\ image.jpg);
-
+  background-position: center;
+  background-size:cover;   
   /* animates zoom effect on loading page */
   animation-name: safety-zoom;
   animation-duration: 4s;
