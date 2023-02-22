@@ -14,13 +14,7 @@ body {
 
 /* headings and logo */
 
-h1,
-h2 {
-  font-family: open sans, nunito, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #252525;
-}
+
 
 #logo {
   height: 100px;
@@ -43,7 +37,10 @@ h2 {
 #menu li {
   float: right;
   list-style-type: none;
-  margin-right: 30px;
+  margin-right: 25px;
+  font-size: 65%;
+  margin-right: 20px;
+
 }
 
 #menu a {
@@ -62,23 +59,22 @@ h2 {
 /* safety image */
 
 #safety-image-outer {
-  height: 600px;
+  height: auto;
   width: 100%;
   overflow: hidden;
-
-  position: relative;
+  border-top: 2px solid darkslateblue;
 }
 
 #cover-text {
     color: white;
-    font-size: 110%;
+    font-size: 90%;
     font-family: open sans, nunito, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 400px;
-    padding: 15px;
+    letter-spacing: 1px;
     background-color: rgba(128, 128, 128, .8);
     position: absolute;
+    text-align: center;
+    border: 2px solid white;
 }
 
 #safety-image {
