@@ -14,8 +14,6 @@ body {
 
 /* headings and logo */
 
-
-
 #logo {
   height: 100px;
   width: auto;
@@ -40,7 +38,6 @@ body {
   margin-right: 25px;
   font-size: 65%;
   margin-right: 20px;
-
 }
 
 #menu a {
@@ -81,7 +78,7 @@ body {
   height: 600px;
   background: url(../css/images/health\ and\ safety\ main\ image.jpg);
   background-position: center;
-  background-size:cover;   
+  background-size: cover;
   /* animates zoom effect on loading page */
   animation-name: safety-zoom;
   animation-duration: 4s;
@@ -99,55 +96,52 @@ body {
   }
 }
 
-
 /* collaboration*/
 
 #collaboration h1 {
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align:center;
+  text-align: center;
 }
 
-#collaboration h2 { 
-  text-align:center;
+#collaboration h2 {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
-
-
 #collab-left {
-  
   width: 100%;
-
-
 }
 
 #collab-right {
-  
-
   width: 100%;
 }
 
 #collab-center {
-  
   width: 100%;
-  
-  
-
 }
 
 .circle-container {
-  margin: 0 auto;
-  width: 10%;
-  padding: 100px;
-  border-style:dotted;
+  margin-left: 10px;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border-style: dotted;
   border-color: navy;
   border-width: 3px;
   border-radius: 50%;
-  align-items:center;
 }
 
+#circle-image-left {
+  height: inherit;
+}
 
+#circle-image-right {
+  height: inherit;
+}
 
+#circle-image-center {
+  height: inherit;
+  
+}
