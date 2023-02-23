@@ -65,7 +65,7 @@ body {
   border-top: 2px solid darkslateblue;
 }
 
-#cover-text {
+/* #cover-text {
     color: white;
     font-size: 90%;
     font-family: open sans, nunito, sans-serif;
@@ -75,7 +75,7 @@ body {
     position: absolute;
     text-align: center;
     border: 2px solid white;
-}
+} */
 
 #safety-image {
   height: 600px;
@@ -98,3 +98,56 @@ body {
     transform: scale(1.1);
   }
 }
+
+
+/* collaboration*/
+
+#collaboration h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align:center;
+}
+
+#collaboration h2 { 
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+
+#collab-left {
+  
+  width: 100%;
+
+
+}
+
+#collab-right {
+  
+
+  width: 100%;
+}
+
+#collab-center {
+  
+  width: 100%;
+  
+  
+
+}
+
+.circle-container {
+  margin: 0 auto;
+  width: 10%;
+  padding: 100px;
+  border-style:dotted;
+  border-color: navy;
+  border-width: 3px;
+  border-radius: 50%;
+  align-items:center;
+}
+
+
+
