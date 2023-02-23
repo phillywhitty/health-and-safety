@@ -145,3 +145,20 @@ body {
   height: inherit;
   
 }
+
+/* zoom calls */
+
+#zoom {
+  background-image: url("../css/images/zoom_call_photo1.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+#zoom div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .4);
+  text-align: center;
+}
