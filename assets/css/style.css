@@ -206,3 +206,11 @@ footer {
 
 
 }
+
+/* about-us */
+
+#about-us > img {
+  height: 400px;
+  width: auto;
+
+}
