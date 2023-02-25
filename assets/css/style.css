@@ -162,3 +162,26 @@ body {
   background-color: rgba(0, 0, 0, .4);
   text-align: center;
 }
+
+/* footer */
+
+footer {
+  height: 80px;
+}
+
+.social-networks {
+  text-align: center;
+  
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: blue;
+  
+}
