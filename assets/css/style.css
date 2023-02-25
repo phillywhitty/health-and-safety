@@ -185,3 +185,24 @@ footer {
   color: blue;
   
 }
+
+/* gallery */
+
+#accidents {
+  clear: both;
+  line-height: 5px;
+  column-count: 1;
+  column-gap: 1px;
+}
+
+#accidents > h1 {
+  font-size: 100%;
+  text-align: center;
+
+}
+
+#accidents > img {
+  width: 90%;
+
+
+}
