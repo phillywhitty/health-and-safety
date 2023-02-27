@@ -19,7 +19,7 @@
     <nav>
       <ul id="menu">
         <li>
-          <a href="signup.html">Sign-Up</a>
+          <a href="signup.html" class="active">Sign-Up</a>
         </li>
         <li>
           <a href="gallery.html">Gallery</a>
@@ -28,88 +28,64 @@
           <a href="about_us.html">About</a>
         </li>
         <li>
-          <a href="index.html" class="active">Home</a>
+          <a href="index.html">Home</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <section id="safety-image-outer">
-    <div id="safety-image"></div>
-    <!-- <div id="cover-text">
-        <h2>Connecting Health And Safety Teams To Keep Reducing Risks</h2>
+ <section class="form-section">
 
-      </div> -->
-  </section>
+    <form method="POST" action="http:s//formdump.codeinstitute.net/" class="signup-form">
+        <h2>Let's get you signed up! <i class="fa-regular fa-pen-to-square"></i></h2>
 
-  <section id="collaboration">
-    <h1>Why Collaborate With Us ?</h1>
-    <div id="collab-left">
-      <div class="circle-container"><img id="circle-image-left" src="./assets/css/images/globe-icon_png.png">
-      </div>
-      <h2>Connectivity</h2>
-    </div>
-    </div>
+        <label for="cname">Company Name</label>
+        <input class="text-input" id="cname" name="company_name" type="text" required>
 
-    <div id="collab-right">
-      <div class="circle-container"><img id="circle-image-right" src="./assets/css/images/risk_icon_png.png"></div>
-      <div id="circle-image-right"></div>
-      <h2>Reducing Risk</h2>
-    </div>
-    </div>
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
 
-    <div id="collab-center">
-      <div class="circle-container"><img id="circle-image-center" src="assets/css/images/relationship_icon_png.png">
-      </div>
-      <div id="circle-image-center"></div>
-      <h2>Building Relationships</h2>
-    </div>
-    </div>
-  </section>
+        <label for="phone">Phone Number</label>
+        <input class="text-input" id="phone" name="phone_number" type="text">
 
-  <section id="zoom">
+        <label for="feedback">How Did You Hear About Us ?</label>
+        <input id="feedback">
 
+        <label for="social-media">Social Media</label>
+        <input type="radio" id="social" name="social_media" value="Social Media">
 
-    <div>
-      <h2>Zoom Call</h2>
-      <h3>Thursday</h3>
-      <h3>06/04/23</h3>
-      <h3>11:00am</h3>
+        <label for="word-of-mouth">Word Of Mouth</label>
+        <input type="radio" id="word-of-mouth" name="word_of_mouth" value="Word Of Mouth">
 
+        <label for="advertisement">Advertisement</label>
+        <input type="radio" id="advertisement" name="advertisement" value="Advertisement">
 
-    </div>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="other" value="Other">
+
+        <input class="join-button" id="join-button" type="submit" value="Company Sign-Up">
 
 
 
-    <div>
-      <h2>Zoom Call</h2>
-      <h3>Friday</h3>
-      <h3>14/04/23</h3>
-      <h3>11:00am</h3>
-
-    </div>
 
 
 
-    <div>
-      <h2>Zoom Call</h2>
-      <h3>Thursday</h3>
-      <h3>20/04/23</h3>
-      <h3>11:00am</h3>
 
-    </div>
+
+    </form>
 
 
 
-    <div>
-      <h2>Zoom Call</h2>
-      <h3>Friday</h3>
-      <h3>28/04/23</h3>
-      <h3>11:00am</h3>
 
-    </div>
 
-  </section>
+
+
+
+ </section>
+
+ 
+
+ 
 
   <footer>
 
