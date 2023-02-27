@@ -33,10 +33,10 @@ h2 {
 /* navigation links */
 
 #menu {
-  font-size: 110%;
+  font-size: 120%;
   letter-spacing: 3px;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 #menu,
@@ -223,16 +223,23 @@ footer {
 
 #about-us {
   background-color: rgba(180, 220, 240);
+  padding-left: 15px;
 }
 
 #about-us > img {
   height: 400px;
-  width: auto;
+  max-width: 100%;
+}
+
+#about-us > h1 {
+  margin-left: 15px;
+  letter-spacing: 2px;
+  
 }
 
 #about-us > p {
+  margin-left: 15px;
   letter-spacing: 2px;
-  text-decoration: wavy;
 }
 
 /* sign-up form */
