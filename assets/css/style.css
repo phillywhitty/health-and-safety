@@ -58,11 +58,11 @@ h2 {
 }
 
 #menu a:hover {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid darkorange;
 }
 
 .active {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid darkorange;
 }
 
 /* safety image */
@@ -71,8 +71,8 @@ h2 {
   height: auto;
   width: 100%;
   overflow: hidden;
-  border-top: 2px solid rgba(35, 60, 150);
-  border-bottom: 2px solid rgba(35, 60, 150);
+  border-top: 2px solid darkorange;
+  border-bottom: 2px solid darkorange;
 }
 
 /* #cover-text {
@@ -167,8 +167,8 @@ h2 {
   background-position: center;
   width: 100%;
   overflow: hidden;
-  border-top: 2px solid rgba(35, 60, 150);
-  border-bottom: 2px solid rgba(35, 60, 150);
+  border-top: 2px solid darkorange;
+  border-bottom: 2px solid darkorange;
 }
 
 #zoom div {
@@ -209,37 +209,52 @@ footer {
 }
 
 #accidents > h1 {
-  font-size: 110%;
-  text-align: left;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 3px;
   margin: 20px 5px 20px;
 }
 
 #accidents > img {
   max-width: 90%;
-  padding: 1rem;
+  border: 2px solid darkorange;
+  margin: 15px;
 }
 
 /* about-us */
 
 #about-us {
   background-color: rgba(180, 220, 240);
-  padding-left: 15px;
+
 }
 
 #about-us > img {
-  height: 400px;
+  height: 250px;
   max-width: 100%;
+  border-top: 2px solid darkorange;
+  border-bottom: 2px solid darkorange;
 }
 
 #about-us > h1 {
   margin-left: 15px;
-  letter-spacing: 2px;
-  
+  letter-spacing: 3px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
 }
 
 #about-us > p {
-  margin-left: 15px;
+  
   letter-spacing: 2px;
+  padding: 30px;
+  border-bottom: 2px dashed darkorange;
+  text-align: center;
+
+}
+
+#about-us-icon {
+  font-size: 30px;
+  padding-top: 15px;
 }
 
 /* sign-up form */
