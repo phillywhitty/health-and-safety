@@ -37,12 +37,6 @@ h2 {
   padding-top: 15px;
 }
 
-#logo-head-2 {
-  text-align:center;
-  color: darkorange;
-
-}
-
 a {
   text-decoration: none;
 }
@@ -91,17 +85,6 @@ a {
   border-bottom: 2px solid darkorange;
 }
 
-/* #cover-text {
-    color: white;
-    font-size: 90%;
-    font-family: open sans, nunito, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background-color: rgba(128, 128, 128, .8);
-    position: absolute;
-    text-align: center;
-    border: 2px solid white;
-} */
 
 #safety-image {
   height: 600px;
@@ -179,7 +162,6 @@ a {
 #zoom {
   background-image: url(./images/zoom_call_photo.png);
   background-repeat: no-repeat;
-  /* background-size: cover; */
   background-position: center;
   width: 100%;
   overflow: hidden;
@@ -289,3 +271,79 @@ footer {
 .signup-form > h2 {
   margin: 5px;
 }
+
+/*media queries for tablet size*/
+
+@media screen and (min-width: 700px) {
+
+  header {
+    height: 220px;
+  }
+
+
+#menu {
+  font-size: 200%;
+  float: right;
+  margin-right: 15px;
+}
+
+#logo {
+  height: 200px;
+}
+
+#logo-head-1 {
+  font-size: 200%;
+  text-align: center;
+  float: right;
+  margin: 40px;
+}
+
+#zoom {
+  font-size: 120%;
+}
+
+#collaboration h1, #collaboration h2 {
+  font-size:180%;
+}
+
+#about-us > img {
+  margin-left: 160px;
+  }
+  
+
+
+.social-networks i {
+  font-size: 200%;
+}
+
+
+
+}
+
+/* media queries for laptop size*/
+
+@media screen and (min-width: 1400px) {
+
+#logo-head-1 {
+  margin: 10px;
+}
+
+#menu {
+  line-height: 100px;
+}
+
+#about-us > img {
+  margin-left: 300px;
+  }
+  
+
+
+
+
+
+
+
+
+
+}
+
