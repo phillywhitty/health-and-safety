@@ -261,15 +261,34 @@ footer {
 
 .form-section {
   min-height: 80vh;
+  margin: 10px;
 }
 
 .signup-form {
   text-align: left;
   background-color:aliceblue;
+  height: 400px;
 }
 
 .signup-form > h2 {
   margin: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+#cname, #email, #phone {
+  margin: 10px;
+}
+
+#hear-about-us-text {
+  padding: 20px;
+}
+
+#join-button {
+  margin:10px;
+  padding: 20px;
+  background-color: darkorange;
+  font-size: 120%;
 }
 
 /*media queries for tablet size*/
@@ -306,10 +325,21 @@ footer {
   font-size:180%;
 }
 
+/*about-us page*/
+
 #about-us > img {
   margin-left: 160px;
   }
   
+
+  /* gallery page */
+
+  #accidents {
+    column-count: 2;
+  }
+  
+
+
 
 
 .social-networks i {
@@ -317,10 +347,17 @@ footer {
 }
 
 
-
 }
 
-/* media queries for laptop size*/
+
+
+
+
+
+
+
+
+/* media queries for large laptop size*/
 
 @media screen and (min-width: 1400px) {
 
