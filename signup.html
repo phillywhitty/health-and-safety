@@ -1,115 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="A platform for health and safety companies and teams to collaborate"
+        />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A platform for health and safety companies and teams to collaborate" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Health And Safety Connect</title>
+    </head>
 
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <title>Health And Safety Connect</title>
-</head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img
+                    id="logo"
+                    src="assets/css/images/health and safety logo..png"
+                />
+                <h2 id="logo-head-1">Health And Safety Connect</h2>
+            </a>
 
-<body>
-  
-    <header>
-    
-    <a href="index.html">
-      <img id="logo" src="assets/css/images/health and safety logo..png" />
-      <h2 id="logo-head-1">Health And Safety Connect </h2>
-    </a>
-    
-    <nav>
-      <ul id="menu">
-        <li>
-          <a href="signup.html" class="active">Sign-Up</a>
-        </li>
-        <li>
-          <a href="gallery.html">Gallery</a>
-        </li>
-        <li>
-          <a href="about_us.html">About</a>
-        </li>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-      </ul>
-    
-    </nav>
-  
-</header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="signup.html" class="active">Sign-Up</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about_us.html">About</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
- <section class="form-section">
+        <section class="form-section">
+            <form
+                method="POST"
+                action="https://formdump.codeinstitute.net/"
+                class="signup-form"
+            >
+                <h2>
+                    Let's get you signed up!
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </h2>
 
-    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-        
-        <h2>Let's get you signed up! <i class="fa-regular fa-pen-to-square"></i></h2>
+                <label for="cname">Company Name</label>
+                <input
+                    class="text-input"
+                    id="cname"
+                    name="company_name"
+                    type="text"
+                    required
+                />
 
-        <label for="cname">Company Name</label>
-        <input class="text-input" id="cname" name="company_name" type="text" required>
+                <label for="email">Email Address</label>
+                <input
+                    class="text-input"
+                    type="email"
+                    id="email"
+                    name="email_address"
+                    required
+                />
 
-        <label for="email">Email Address</label>
-        <input class="text-input" type="email" id="email" name="email_address" required>
+                <label for="phone">Phone Number</label>
+                <input
+                    class="text-input"
+                    id="phone"
+                    name="phone_number"
+                    type="text"
+                />
 
-        <label for="phone">Phone Number</label>
-        <input class="text-input" id="phone" name="phone_number" type="text">
+                <p id="hear-about-us-text">How Did You Hear About Us ?</p>
 
-        <p id="hear-about-us-text">How Did You Hear About Us ?</p>
-        
+                <label for="social-media">Social Media</label>
+                <input
+                    type="radio"
+                    id="social"
+                    name="social_media"
+                    value="Social Media"
+                />
 
-        <label for="social-media">Social Media</label>
-        <input type="radio" id="social" name="social_media" value="Social Media">
+                <label for="word-of-mouth">Word Of Mouth</label>
+                <input
+                    type="radio"
+                    id="word-of-mouth"
+                    name="word_of_mouth"
+                    value="Word Of Mouth"
+                />
 
-        <label for="word-of-mouth">Word Of Mouth</label>
-        <input type="radio" id="word-of-mouth" name="word_of_mouth" value="Word Of Mouth">
+                <label for="advertisement">Advertisement</label>
+                <input
+                    type="radio"
+                    id="advertisement"
+                    name="advertisement"
+                    value="Advertisement"
+                />
 
-        <label for="advertisement">Advertisement</label>
-        <input type="radio" id="advertisement" name="advertisement" value="Advertisement">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="other" value="Other" />
 
-        <label for="other">Other</label>
-        <input type="radio" id="other" name="other" value="Other">
+                <input
+                    class="join-button"
+                    id="join-button"
+                    type="submit"
+                    value="Company Sign-Up"
+                />
+            </form>
+        </section>
 
-        <input class="join-button" id="join-button" type="submit" value="Company Sign-Up">
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our faceboook page (opens in a new tab)"
+                        ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                </li>
 
-    </form>
+                <li>
+                    <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our twitter page (opens in a new tab)"
+                        ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                </li>
 
-</section>
+                <li>
+                    <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our instagram page (opens in a new tab)"
+                        ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                </li>
 
- 
+                <li>
+                    <a
+                        href="https://youtube.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our youtube page (opens in a new tab)"
+                        ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                </li>
+            </ul>
+        </footer>
 
- 
-
-  <footer>
-
-    <ul class="social-networks">
-
-      <li>
-        <a href="https://facebook.com" target="_blank" rel="noopener" 
-        aria-label="Visit our faceboook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-      </li>
-
-      <li>
-        <a href="https://twitter.com" target="_blank" rel="noopener" 
-        aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-      </li>
-
-      <li>
-        <a href="https://instagram.com" target="_blank" rel="noopener" 
-        aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-      </li>
-
-      <li>
-        <a href="https://youtube.com" target="_blank" rel="noopener" 
-        aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-      </li>
-
-    </ul>
-
- </footer>
-
-  <script src="https://kit.fontawesome.com/5d061a21c0.js" crossorigin="anonymous"></script>
-
-</body>
-
+        <script
+            src="https://kit.fontawesome.com/5d061a21c0.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

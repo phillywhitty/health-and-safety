@@ -1,386 +1,357 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Open+Sans&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  border: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 body {
-  font-family:  Nunito, open sans, sans-serif;
-  font-weight: 600;
-  color: midnightblue;
+    font-family: Nunito, open sans, sans-serif;
+    font-weight: 600;
+    color: midnightblue;
 }
 
 /* headings and logo */
 
 h1 {
-  font-family: Nunito;
-  font-weight: 400;
+    font-family: Nunito;
+    font-weight: 400;
 }
 
 h2 {
-  font-family: Nunito;
-  font-weight: 200;
+    font-family: Nunito;
+    font-weight: 200;
 }
 
 #logo {
-  height: 100px;
-  width: auto;
-  mix-blend-mode: color-burn;
-  float: left;
+    height: 100px;
+    width: auto;
+    mix-blend-mode: color-burn;
+    float: left;
 }
 
 #logo-head-1 {
-  text-align:center;
-  color: darkorange;
-  padding-top: 15px;
+    text-align: center;
+    color: darkorange;
+    padding-top: 15px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 /* navigation links */
 
 #menu {
-  font-size: 120%;
-  letter-spacing: 3px;
-  display: inline-block;
-  margin-left: 15px;
+    font-size: 120%;
+    letter-spacing: 3px;
+    display: inline-block;
+    margin-left: 15px;
 }
 
 #menu,
 #logo {
-  line-height: 75px;
+    line-height: 75px;
 }
 
 #menu li {
-  float: right;
-  list-style-type: none;
-  margin-right: 25px;
-  font-size: 65%;
-  margin-right: 20px;
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+    font-size: 65%;
+    margin-right: 20px;
 }
 
 #menu a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 #menu a:hover {
-  border-bottom: 1px solid darkorange;
+    border-bottom: 1px solid darkorange;
 }
 
 .active {
-  border-bottom: 1px solid darkorange;
+    border-bottom: 1px solid darkorange;
 }
 
 /* safety image */
 
 #safety-image-outer {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  border-top: 2px solid darkorange;
-  border-bottom: 2px solid darkorange;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
 }
 
-
 #safety-image {
-  height: 600px;
-  background: url(../css/images/health\ and\ safety\ main\ image.jpg);
-  background-position: center;
-  background-size: cover;
-  /* animates zoom effect on loading page */
-  animation-name: safety-zoom;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
+    height: 600px;
+    background: url(../css/images/health\ and\ safety\ main\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    /* animates zoom effect on loading page */
+    animation-name: safety-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 /* the level of zoom for the safety image */
 
 @keyframes safety-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.1);
-  }
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /* collaboration*/
 
 #collaboration h1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 #collaboration h2 {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #collab-left {
-  width: 100%;
+    width: 100%;
 }
 
 #collab-right {
-  width: 100%;
+    width: 100%;
 }
 
 #collab-center {
-  width: 100%;
+    width: 100%;
 }
 
 .circle-container {
-  margin: auto;
-  height: 200px;
-  width: 200px;
-  padding: 50px;
-  border-style: dashed;
-  border-color: #E6CC00;
-  border-width: 3px;
-  border-radius: 50%;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: #e6cc00;
+    border-width: 3px;
+    border-radius: 50%;
 }
 
 #circle-image-left {
-  height: inherit;
+    height: inherit;
 }
 
 #circle-image-right {
-  height: inherit;
+    height: inherit;
 }
 
 #circle-image-center {
-  height: inherit;
+    height: inherit;
 }
 
 /* zoom calls */
 
 #zoom {
-  background-image: url(./images/zoom_call_photo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  overflow: hidden;
-  border-top: 2px solid darkorange;
-  border-bottom: 2px solid darkorange;
+    background-image: url(./images/zoom_call_photo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
 }
 
 #zoom div {
-  color: midnightblue;
-  background-color: rgba(180, 220, 240, 0.9);
-  text-align: center;
-  padding: 30px;
-
+    color: midnightblue;
+    background-color: rgba(180, 220, 240, 0.9);
+    text-align: center;
+    padding: 30px;
 }
 
 /* footer */
 
 footer {
-  height: 80px;
+    height: 80px;
 }
 
 .social-networks {
-  text-align: center;
+    text-align: center;
 }
 
 .social-networks > li {
-  display: inline;
+    display: inline;
 }
 
 .social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: darkorange;
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: darkorange;
 }
 
 /* gallery */
 
 #accidents {
-  clear: both;
-  line-height: 30px;
-  column-count: 1;
-  column-gap: 1px;
-  background-color: rgba(180, 220, 240);
+    clear: both;
+    line-height: 30px;
+    column-count: 1;
+    column-gap: 1px;
+    background-color: rgba(180, 220, 240);
 }
 
 #accidents > h1 {
-  font-weight: bolder;
-  text-align: center;
-  letter-spacing: 3px;
-  margin: 20px 5px 20px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 20px 5px 20px;
 }
 
 #accidents > img {
-  max-width: 90%;
-  border: 2px solid darkorange;
-  margin: 15px;
+    max-width: 90%;
+    border: 2px solid darkorange;
+    margin: 15px;
 }
 
 /* about-us */
 
 #about-us {
-  background-color: rgba(180, 220, 240);
-
+    background-color: rgba(180, 220, 240);
 }
 
 #about-us > img {
-  height: 250px;
-  max-width: 100%;
-  border-top: 2px solid darkorange;
-  border-bottom: 2px solid darkorange;
+    height: 250px;
+    max-width: 100%;
+    border-top: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
 }
 
 #about-us > h1 {
-  margin-left: 15px;
-  letter-spacing: 3px;
-  padding: 10px;
-  font-weight: bold;
-  text-align: center;
+    margin-left: 15px;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
 }
 
 #about-us > p {
-  
-  letter-spacing: 2px;
-  padding: 30px;
-  border-bottom: 2px dashed darkorange;
-  text-align: center;
-
+    letter-spacing: 2px;
+    padding: 30px;
+    border-bottom: 2px dashed darkorange;
+    text-align: center;
 }
 
 #about-us-icon {
-  font-size: 30px;
-  padding-top: 15px;
+    font-size: 30px;
+    padding-top: 15px;
 }
 
 /* sign-up form */
 
 .form-section {
-  min-height: 80vh;
-  margin: 10px;
+    min-height: 80vh;
+    margin: 10px;
 }
 
 .signup-form {
-  text-align: left;
-  background-color:aliceblue;
-  height: 400px;
+    text-align: left;
+    background-color: aliceblue;
+    height: 400px;
 }
 
 .signup-form > h2 {
-  margin: 5px;
-  padding: 20px;
-  text-align: center;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
 }
 
-#cname, #email, #phone {
-  margin: 10px;
+#cname,
+#email,
+#phone {
+    margin: 10px;
 }
 
 #hear-about-us-text {
-  padding: 20px;
+    padding: 20px;
 }
 
 #join-button {
-  margin:10px;
-  padding: 20px;
-  background-color: darkorange;
-  font-size: 120%;
+    margin: 10px;
+    padding: 20px;
+    background-color: darkorange;
+    font-size: 120%;
 }
 
 /*media queries for tablet size*/
 
 @media screen and (min-width: 700px) {
+    header {
+        height: 220px;
+    }
 
-  header {
-    height: 220px;
-  }
+    #menu {
+        font-size: 200%;
+        float: right;
+        margin-right: 15px;
+    }
 
+    #logo {
+        height: 200px;
+    }
 
-#menu {
-  font-size: 200%;
-  float: right;
-  margin-right: 15px;
+    #logo-head-1 {
+        font-size: 200%;
+        text-align: center;
+        float: right;
+        margin: 40px;
+    }
+
+    #zoom {
+        font-size: 120%;
+    }
+
+    #collaboration h1,
+    #collaboration h2 {
+        font-size: 180%;
+    }
+
+    /*about-us page*/
+
+    #about-us > img {
+        margin-left: 160px;
+    }
+
+    /* gallery page */
+
+    #accidents {
+        column-count: 2;
+    }
+
+    .social-networks i {
+        font-size: 200%;
+    }
 }
-
-#logo {
-  height: 200px;
-}
-
-#logo-head-1 {
-  font-size: 200%;
-  text-align: center;
-  float: right;
-  margin: 40px;
-}
-
-#zoom {
-  font-size: 120%;
-}
-
-#collaboration h1, #collaboration h2 {
-  font-size:180%;
-}
-
-/*about-us page*/
-
-#about-us > img {
-  margin-left: 160px;
-  }
-  
-
-  /* gallery page */
-
-  #accidents {
-    column-count: 2;
-  }
-  
-
-
-
-
-.social-networks i {
-  font-size: 200%;
-}
-
-
-}
-
-
-
-
-
-
-
-
 
 /* media queries for large laptop size*/
 
 @media screen and (min-width: 1400px) {
+    #logo-head-1 {
+        margin: 10px;
+    }
 
-#logo-head-1 {
-  margin: 10px;
+    #menu {
+        line-height: 100px;
+    }
+
+    #about-us > img {
+        margin-left: 300px;
+    }
 }
-
-#menu {
-  line-height: 100px;
-}
-
-#about-us > img {
-  margin-left: 300px;
-  }
-  
-
-
-
-
-
-
-
-
-
-}
-
