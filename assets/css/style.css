@@ -28,8 +28,24 @@ h2 {
   height: 100px;
   width: auto;
   mix-blend-mode: color-burn;
+  float: left;
 }
 
+#logo-head-1 {
+  text-align:center;
+  color: darkorange;
+  padding-top: 15px;
+}
+
+#logo-head-2 {
+  text-align:center;
+  color: darkorange;
+
+}
+
+a {
+  text-decoration: none;
+}
 /* navigation links */
 
 #menu {
@@ -136,7 +152,7 @@ h2 {
 }
 
 .circle-container {
-  margin-left: 10px;
+  margin: auto;
   height: 200px;
   width: 200px;
   padding: 50px;
@@ -175,6 +191,8 @@ h2 {
   color: midnightblue;
   background-color: rgba(180, 220, 240, 0.9);
   text-align: center;
+  padding: 30px;
+
 }
 
 /* footer */
@@ -259,6 +277,15 @@ footer {
 
 /* sign-up form */
 
+.form-section {
+  min-height: 80vh;
+}
+
 .signup-form {
   text-align: left;
+  background-color:aliceblue;
+}
+
+.signup-form > h2 {
+  margin: 5px;
 }
