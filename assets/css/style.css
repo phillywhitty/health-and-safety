@@ -9,7 +9,7 @@
 body {
   font-family:  Nunito, open sans, sans-serif;
   font-weight: 600;
-  color: #3a3a3a;
+  color: midnightblue;
 }
 
 /* headings and logo */
@@ -172,7 +172,7 @@ h2 {
 }
 
 #zoom div {
-  color: #fafafa;
+  color: midnightblue;
   background-color: rgba(180, 220, 240, 0.9);
   text-align: center;
 }
