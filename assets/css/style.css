@@ -6,13 +6,15 @@
     border: none;
 }
 
+/* These are the body styles*/
+
 body {
     font-family: Nunito, open sans, sans-serif;
     font-weight: 600;
     color: midnightblue;
 }
 
-/* headings and logo */
+/* These are the main heading styles */
 
 h1 {
     font-family: Nunito;
@@ -23,6 +25,8 @@ h2 {
     font-family: Nunito;
     font-weight: 200;
 }
+
+/* These are the logo located in the header styles*/
 
 #logo {
     height: 100px;
@@ -41,7 +45,7 @@ a {
     text-decoration: none;
 }
 
-/* navigation links */
+/* These are the navigation links styles */
 
 #menu {
     font-size: 120%;
@@ -76,7 +80,7 @@ a {
     border-bottom: 1px solid darkorange;
 }
 
-/* safety image */
+/* These are the main safety image styles */
 
 #safety-image-outer {
     height: auto;
@@ -88,10 +92,12 @@ a {
 
 #safety-image {
     height: 600px;
-    background: url(../css/images/health\ and\ safety\ main\ image.jpg);
+    background: url(../css/images/health_and_safety_main_image.jpg);
     background-position: center;
     background-size: cover;
-    /* animates zoom effect on loading page */
+
+/* animates zoom effect on loading page */
+
     animation-name: safety-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -109,7 +115,7 @@ a {
     }
 }
 
-/* collaboration*/
+/* These are thecollaboration section styles */
 
 #collaboration h1 {
     padding-top: 20px;
@@ -158,7 +164,7 @@ a {
     height: inherit;
 }
 
-/* zoom calls */
+/* These are the zoom call section styles */
 
 #zoom {
     background-image: url(./images/zoom_call_photo.png);
@@ -177,7 +183,7 @@ a {
     padding: 30px;
 }
 
-/* footer */
+/* These are the footer styles */
 
 footer {
     height: 80px;
@@ -198,30 +204,7 @@ footer {
     color: darkorange;
 }
 
-/* gallery */
-
-#accidents {
-    clear: both;
-    line-height: 30px;
-    column-count: 1;
-    column-gap: 1px;
-    background-color: rgba(180, 220, 240);
-}
-
-#accidents > h1 {
-    font-weight: bolder;
-    text-align: center;
-    letter-spacing: 3px;
-    margin: 20px 5px 20px;
-}
-
-#accidents > img {
-    max-width: 90%;
-    border: 2px solid darkorange;
-    margin: 15px;
-}
-
-/* about-us */
+/* These are the about-us page styles */
 
 #about-us {
     background-color: rgba(180, 220, 240);
@@ -254,7 +237,31 @@ footer {
     padding-top: 15px;
 }
 
-/* sign-up form */
+/* These are the gallery page styles */
+
+#accidents {
+    clear: both;
+    line-height: 30px;
+    column-count: 1;
+    column-gap: 1px;
+    background-color: rgba(180, 220, 240);
+}
+
+#accidents > h1 {
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 20px 5px 20px;
+}
+
+#accidents > img {
+    max-width: 90%;
+    border: 2px solid darkorange;
+    margin: 15px;
+}
+
+
+/* These are the sign-up form styles */
 
 .form-section {
     min-height: 80vh;
@@ -290,9 +297,16 @@ footer {
     font-size: 120%;
 }
 
-/*media queries for tablet size*/
+/*---This is my media querie styling section--- */
 
-@media screen and (min-width: 700px) {
+
+/*media queries for tablet size + */
+
+@media screen and (min-width: 700px) 
+
+   /*home page*/
+
+{
     header {
         height: 220px;
     }
@@ -323,7 +337,7 @@ footer {
         font-size: 180%;
     }
 
-    /*about-us page*/
+    /*about-us page */
 
     #about-us > img {
         margin-left: 160px;
@@ -340,7 +354,7 @@ footer {
     }
 }
 
-/* media queries for large laptop size*/
+/* media queries for laptop size*/
 
 @media screen and (min-width: 1400px) {
     #logo-head-1 {

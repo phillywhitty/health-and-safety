@@ -106,4 +106,9 @@ My mentor has been a huge addition in developing my first website. The Love Runn
 
 - The photos used on the home and sign up page are from Canva
 - The images used for the gallery page were also taken from Canva
+- The link for canva is here https://www.canva.com/
+
+
+
+
 
