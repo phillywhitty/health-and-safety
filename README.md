@@ -76,10 +76,10 @@ Chrome was utilised to inspect the site in mobile format, going through the page
 ### Validator Testing 
 
 HTML has been validated with W3C HTML5 Validator.
-https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-phillywhitt-healthandsa-7p759i06kk3.ws-eu89.gitpod.io%2Findex.html
+https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-phillywhitt-healthandsa-o15wng1v955.ws-eu89.gitpod.io%2F
 
 CSS has been validated with W3C CSS Validator 
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-phillywhitt-healthandsa-7p759i06kk3.ws-eu89.gitpod.io%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-phillywhitt-healthandsa-o15wng1v955.ws-eu89.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 
 ## Deployment
